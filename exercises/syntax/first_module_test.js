@@ -5,7 +5,6 @@ Instructions:
 */
 
 import {strict as assert} from 'assert';
-
 import {hello} from './first_module.js';
 
 test('First exercise', () => {
