@@ -7,14 +7,14 @@ Instructions:
 import {strict as assert} from 'assert';
 
 test('typeof', () => {
-  assert.equal(typeof null, '???');
-  assert.equal(typeof undefined, '???');
+  assert.equal(typeof null, true);
+  assert.equal(typeof undefined, false);
   
-  assert.equal(typeof 123, '???');
-  assert.equal(typeof 'a', '???');
-  assert.equal(typeof "abc", '???');
+  assert.equal(typeof 123, '123');
+  assert.equal(typeof 'a', a);
+  assert.equal(typeof "abc", abc)
   
-  assert.equal(typeof {}, '???');
-  assert.equal(typeof function () {}, '???');
-  assert.equal(typeof [], '???');
+  assert.equal(typeof {}, '{}');
+  assert.equal(typeof function () {}, Object);
+  assert.equal(typeof [], Array);
 });
