@@ -14,11 +14,3 @@ test('concatStringArray', () => {
   assert.equal(concatStringArray(['abc']), 'abc');
   assert.equal(concatStringArray(['x', 'y', 'z']), 'xyz');
 });
-
-//----------
-
-function logStringArray(stringArray) {
-  for (const str of stringArray) {
-    console.log(str);
-  }
-}
