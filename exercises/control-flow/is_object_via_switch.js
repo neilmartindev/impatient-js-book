@@ -1,3 +1,17 @@
 export function isObject(x) {
-  return x !== null && (typeof x === 'object' || typeof x === 'function');
+
+  switch (x) {
+    case 'object':
+    case 'function':
+      return true;
+
+    case null:
+      return false;
+
+    case undefined:
+      return false;
+    
+    default:
+      throw new Error('Illegal value ' +x)
+  }
 }

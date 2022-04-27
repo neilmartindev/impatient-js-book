@@ -14,7 +14,7 @@ export function monthToNumber (x) {
         bulan = 'April';
         break;
         case 5:
-        bulan = 'Mey';
+        bulan = 'May';
         break;
         case 6:
         bulan = 'June';
@@ -23,19 +23,19 @@ export function monthToNumber (x) {
         bulan = 'July';
         break;
         case 8:
-        bulan = 'Agust';
+        bulan = 'August';
         break;
         case 9:
-        bulan = 'Septembr';
+        bulan = 'September';
         break;
         case 10:
-        bulan = 'Octobr';
+        bulan = 'October';
         break;
         case 11:
         bulan = 'November';
         break;
         case 12:
-        bulan = 'Desember';
+        bulan = 'December';
         break;
         default:
         throw new Error('Unknown number: '+x);
